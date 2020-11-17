@@ -1,0 +1,31 @@
+{
+  "name": "mongoose-validate-pretty-errors",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "the Plugin for Mongoose library that convert validation errors fields format {{fieldName, error}, ...}",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matteodelabre/mongoose-beautiful-unique-validation.git"
+  },
+  "scripts": {
+    "test": "tape tests | tap-spec",
+    "lint": "npx eslint ."
+  },
+  "keywords": [
+    "mongoose",
+    "plugin",
+    "mongodb",
+    "error",
+    "validation",
+    "pretty-error"
+  ],
+  "author": "Kostya",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-plugin-security": "^1.4.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.0.1"
+  }
+}
