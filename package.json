@@ -6,7 +6,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/matteodelabre/mongoose-beautiful-unique-validation.git"
+    "url": "https://github.com/kostya7777/mongoose-validate-pretty-errors.git"
   },
   "scripts": {
     "test": "tape tests | tap-spec",
